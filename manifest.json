@@ -8,6 +8,14 @@
     "icons": {
        "48": "./icons/ic_48.png"
     },
+    
+    "permissions": [ "activeTab" ],
+
+    "browser_action": {
+        "default_icon": "./icons/ic_browser_action_md_32.png",
+        "default_title": "Convert page to MD",
+        "default_popup": "./html/browser_action_popup.html"
+    },
 
     "content_scripts": [
         {
@@ -16,3 +24,4 @@
         }
     ]
 }
+
