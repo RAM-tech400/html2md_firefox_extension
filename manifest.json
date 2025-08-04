@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "html2md",
+    "version": "1.0",
+
+    "description": "Convert the web page html file into a markdown file.",
+
+    "icons": {
+       "48": "./icons/ic_48.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["./html2md.js"]
+        }
+    ]
+}
