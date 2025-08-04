@@ -1,5 +1,3 @@
-document.body.style.border = "5px solid red";
-
 let markdown = "";
 
 const allElements = document.body.querySelectorAll(
